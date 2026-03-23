@@ -1,4 +1,5 @@
 # Day 1 — OSI Model + Layer 7 Application Layer
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand how data moves across a network. Think of it as a universal language for computer networking, breaking the complex process of communication into seven distinct layers
 
 ## Date
 23 March 2026
@@ -21,9 +22,7 @@ Each layer has specific protocols and attack vectors.
 
 ## Layer 7 Deep Dive — Real Attacks
 ## Layer 7 Application layer
-Think of the OSI (Open Systems Interconnect) model as a seven-story office building. Layer 7, the Application Layer, is the top floor. It’s the only part of the networking process that actually "touches" the software you use.
-
-While it sounds like it refers to the apps themselves (like Chrome or Discord), it actually refers to the protocols and services those apps use to communicate over a network.
+Layer 7 is the only layer that directly interacts with the software you use. It is the "top" of the stack and provides the protocols that allow user-facing software to send and receive information.
 
 How it works: If you want to send an email, your email client (the app) talks to Layer 7. Layer 7 then identifies whether the network is available, authenticates the user, and initiates the data transfer process. It’s essentially the "interface" between the human-facing software and the technical network stack below it.
 
