@@ -53,6 +53,7 @@ How it works: If you want to send an email, your email client (the app) talks to
     * **Entropy:** High count of unique or random-looking subdomains.
 * **MITRE ATT&CK:** [T1071.004 — Application Layer Protocol: DNS](https://attack.mitre.org/techniques/T1071/004/)
 
+For visual representaion view this source: **Day-01-OSI-Model/DNS Tunneling .png**
 ### 2. HTTP C2 Beaconing
 * **Concept:** Malware communicating with a Command & Control (C2) server at regular intervals to receive instructions.
 * **Mechanism:** Analysts check for **Jitter** (timing variation). If Jitter is near zero, it indicates machine behavior (malware) rather than human activity.
