@@ -53,7 +53,8 @@ How it works: If you want to send an email, your email client (the app) talks to
     * **Entropy:** High count of unique or random-looking subdomains.
 * **MITRE ATT&CK:** [T1071.004 — Application Layer Protocol: DNS](https://attack.mitre.org/techniques/T1071/004/)
 
-For visual representaion view this source: **<img width="500" height="275" alt="DNS Tunneling " src="https://github.com/user-attachments/assets/2e5c2b1f-ec58-44e7-8dc0-4c49cbba9d57" />**
+For visual representaion view this source: **Day-01-OSI-Model/DNS Tunneling .png**
+
 ### 2. HTTP C2 Beaconing
 * **Concept:** Malware communicating with a Command & Control (C2) server at regular intervals to receive instructions.
 * **Mechanism:** Analysts check for **Jitter** (timing variation). If Jitter is near zero, it indicates machine behavior (malware) rather than human activity.
@@ -61,6 +62,7 @@ For visual representaion view this source: **<img width="500" height="275" alt="
     * **Consistency:** Standard Deviation (stdev) of intervals **< 5 seconds**.
     * **Volume:** Connection count **> 10** in a short window.
 * **MITRE ATT&CK:** [T1071.001 — Application Layer Protocol: Web Protocols](https://attack.mitre.org/techniques/T1071/001/)
+For visual representaion view this source:**Day-01-OSI-Model/c2 http**
 
 ### 3. Phishing
 * **Concept:** Deceiving users via fake emails to steal credentials or deliver malicious payloads.
@@ -69,6 +71,8 @@ For visual representaion view this source: **<img width="500" height="275" alt="
     * **Header Mismatch:** "From" address does not match the "Reply-To" address.
     * **Language:** High-pressure or urgent tone to trigger fast action.
     * **MITRE ATT&CK:** T1566.001 / T1566.002
+ For visual representaion view this source: **Day-01-OSI-Model/Phishing email sample**
+
 * **Investigation Tools:** * [VirusTotal](https://www.virustotal.com/)
     * [URLScan.io](https://urlscan.io/)
     * [MXToolbox](https://mxtoolbox.com/)
