@@ -8,7 +8,7 @@ Daily labs, detection rules, incident reports — all here.
 | Day | Topic | Status |
 |-----|-------|--------|
 | Day 1 | OSI Model + Layer 7 Deep Dive | Complete |
-| Day 2 | TCP/IP + Wireshark Analysis | In Progress |
+| Day 2 | Layer 6 + Wireshark Analysis | In Progress |
 
 ## Tools Used So Far
 Wireshark, tcpdump, VirusTotal, TryHackMe
